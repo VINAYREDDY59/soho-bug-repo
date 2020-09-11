@@ -4840,22 +4840,22 @@ icss-utils@^4.0.0, icss-utils@^4.1.1:
   dependencies:
     postcss "^7.0.14"
 
-ids-enterprise-ng@^7.6.0:
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/ids-enterprise-ng/-/ids-enterprise-ng-7.6.0.tgz#b1fb74bc6823e7467f94c99aef125bba25bd0e01"
-  integrity sha512-MB5S38s9x8AGj1hHlgrMLAYXJj94DaRncG4tt/KGrP5qJERyx4K9xy3vxSn7EByGquKAbG0/HWQllZgbJlWWVw==
+ids-enterprise-ng@7.5.3:
+  version "7.5.3"
+  resolved "https://registry.yarnpkg.com/ids-enterprise-ng/-/ids-enterprise-ng-7.5.3.tgz#c97af5cb59bd99b28632d4240bfeb1bf38091fb1"
+  integrity sha512-S6rPEcXWsZQysYq1U6GtxZW2l8ITgpXTl3SX9u7bvJZaNEizsKdTMNJ1/HTIXcrhSAYtkRO0ooipFkmjqJ5V2g==
   dependencies:
     "@types/d3" "4.13.0"
     "@types/jquery" "3.3.29"
     d3 "5.16.0"
-    ids-enterprise "4.32.0"
+    ids-enterprise "4.31.2"
     jquery "3.5.1"
     tslib "^1.13.0"
 
-ids-enterprise@4.32.0:
-  version "4.32.0"
-  resolved "https://registry.yarnpkg.com/ids-enterprise/-/ids-enterprise-4.32.0.tgz#ff861c6829c5ec816495ea3d80e0b61a42ccc9e4"
-  integrity sha512-JnjXVZT9Aq4XOqglz2WseLdbwbiT3s49cJlC6g1w0xBhUzRjN0FFOueF+pCcG7+XwEF2GLbWNyuofPZGebMJiQ==
+ids-enterprise@4.31.2:
+  version "4.31.2"
+  resolved "https://registry.yarnpkg.com/ids-enterprise/-/ids-enterprise-4.31.2.tgz#2c676e7be2e025d5f8da35b03df56641a2eb5e33"
+  integrity sha512-6C5EKRX3xqBUaTdAeqrSMVr+nkvhYWCiyiI992R49BLt7z4n8XKEvqOasmUQVKN6R1crx9X0YICUtA31ALrLPQ==
   dependencies:
     d3 "^5.16.0"
     jquery "^3.5.1"
