@@ -21,12 +21,27 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/ids-enterprise/dist/js/cultures",
+                "output": "/assets/cultures"
+              },
+              {
+                "glob": "**/theme-*.min.css",
+                "input": "node_modules/ids-enterprise/dist/css",
+                "output": "/assets/ids-enterprise/css"
+              }
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/ids-enterprise/dist/js/sohoxi.min.js",
+              "node_modules/ids-enterprise/dist/js/d3.v5.min.js",
+              "node_modules/ids-enterprise/dist/js/cultures/en-US.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'soho-repo';
+
+  constructor() {
+    Soho.Locale.set('en-US');
+  }
 }
